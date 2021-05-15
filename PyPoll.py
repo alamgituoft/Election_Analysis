@@ -46,10 +46,6 @@ with open(file_to_load) as election_data:
         #Add a vote to candidate's count
         candidate_votes[candidate_name] += 1
 
-
-#print the candidate vote dictionary
-print(candidate_votes)
-
 #Find percentage of votes for each candidate by for loop through counts
 #Iterate through candidate list. 
 for candidate_name in candidate_votes:
@@ -58,7 +54,7 @@ for candidate_name in candidate_votes:
     #Calculate percentage of votes
     vote_percentage = float(votes) / float(total_votes) * 100
     #4. print candidate name, vote count and percentage of votes
-    print(f"{candidate_name}: {vote_percentage:.1f} ({votes:})")
+    print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:})\n")
 
 
     #find winning vote count and candidate
@@ -70,9 +66,6 @@ for candidate_name in candidate_votes:
         winning_percentage = vote_percentage
         #set the winning_candidate equal to the candidate's name.
         winning_candidate = candidate_name
-#print out winning candidate, vote count and percentage to terminal 
-print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-
 
 winning_candidate_summary =(
     f"-----------------------\n"
