@@ -34,5 +34,5 @@ The analysis of the election show that:
 - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 <img width="541" alt="Election_Analysis_Txt File" src="https://user-images.githubusercontent.com/81877387/118405560-92b16f80-b646-11eb-88e9-dbac6a5a4ecc.png">
 
-## Challenge Overview 
+## Election-Audit Summary
 For future election analyses, this script can be reused by modifiying some of the existing variables. For example counties can be changed to states or cities and the script will still be usable. Another way to use this script could be, to analyze not only the winner of the elections, but also the least favourable candidate. This could help political parties acknowledge their popularity within the area and improve their election strategies. 
