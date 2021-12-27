@@ -9,6 +9,9 @@ Election analysis of the Colorado Board of Elections using Python. The election 
 4. Percentage of votes for each candidate.
 5. Winner of the election based upon most votes.
 
+![image](https://user-images.githubusercontent.com/81877387/147510190-af44adba-421a-4f0b-9e3a-567a805480c9.png)
+
+
 ## Resources
 1. Data Source: election_results.csv
 2. Software: Python 3.8.5, Visual Studio Code 1.56.2 (Universal)
